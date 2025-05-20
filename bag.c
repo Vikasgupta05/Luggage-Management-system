@@ -82,6 +82,29 @@ int dequeue(int counter) {
     return bag_id;
 }
 
+// Display function for queue
+void display(int counter) {
+    if (counter < 1 || counter > 4) {
+        printf("Invalid counter number.\n");
+        return;
+    }
+    int idx = counter - 1;
+    if (check_in[idx] == NULL && check_out[idx] == NULL) {
+        printf("\nQueue is Empty at Counter %d\n", counter);
+        return;
+    }
+
+    printf("\nTrolley at Counter %d:\n", counter);
+    printf("====================================================================\n");
+    struct node *temp = check_in[idx];
+    printf("<-");
+    while (temp) {
+        printf("__%d__", temp->bag_id);
+        temp = temp->next;
+    }
+    printf("<-\n");
+    printf("====================================================================\n");
+}
 
 // Main function
 int main() {
