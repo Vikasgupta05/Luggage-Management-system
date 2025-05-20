@@ -45,6 +45,42 @@ void enqueue(int id, int wt, int counter) {
     printf("====================================================================\n");
 }
 
+// Function to dequeue a bag
+int dequeue(int counter) {
+    if (counter < 1 || counter > 4) {
+        printf("Invalid counter number.\n");
+        return -1;
+    }
+    int idx = counter - 1;
+    if (check_in[idx] == NULL) {
+        printf("\nUnderflow (No bags at Counter %d)\n", counter);
+        return -1;
+    }
+    struct node *temp = check_in[idx];
+    int fee = charges(temp->weight);
+
+    printf("\nTrolley at Counter %d before checkout:\n", counter);
+    printf("====================================================================\n");
+    struct node *display_temp = check_in[idx];
+    printf("<-");
+    while (display_temp) {
+        printf("__%d__", display_temp->bag_id);
+        display_temp = display_temp->next;
+    }
+    printf("<-\n");
+    printf("====================================================================\n");
+
+    int input;
+    printf("Enter charges you have to pay: ");
+    scanf("%d", &input);
+    paid(fee, input);
+
+    int bag_id = temp->bag_id;
+    check_in[idx] = check_in[idx]->next;
+    free(temp);
+
+    return bag_id;
+}
 
 
 // Main function
