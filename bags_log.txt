@@ -1,0 +1,2 @@
+[2025-05-21 14:04:56] CHECK-IN | Counter: 2 | Bag ID: 1 | Weight: 52
+[2025-05-21 14:05:52] CHECK-OUT | Counter: 2 | Bag ID: 1 | Weight: 52 | Charges Paid: 350
