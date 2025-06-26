@@ -3,7 +3,6 @@
 #include <time.h>          
 #include "charges.h"        
 
-// Node structure for queue
 struct node {
     int bag_id;
     int weight;
@@ -13,7 +12,7 @@ struct node {
 struct node *check_in[4] = {NULL, NULL, NULL, NULL};
 struct node *check_out[4] = {NULL, NULL, NULL, NULL};
 
-// Function to get current timestamp as string
+
 void get_timestamp(char *buffer, size_t size) {
     time_t now = time(NULL);
     struct tm *t = localtime(&now);
@@ -144,8 +143,9 @@ int main() {
     int choice, bag_id, weight;
     int counter, input;
     int keep_running = 1;
-    int bag_count[4] = {0, 0, 0, 0}; // Track bag IDs for each counter
+    int bag_count[4] = {0, 0, 0, 0}; 
 
+    
     while (keep_running) {
         printf("1. Check In\n2. Check Out\n");
         printf("Enter your choice: ");
@@ -155,7 +155,7 @@ int main() {
             case 1:
                 printf("\n==== Insert Bags ==== \n");
                 while (1) {
-                    printf("\nCounters:\n1. Air India\n2. Goa to Delhi\n3. Mumbai to Goa\n4. US\n5. Go to Main Menu\n");
+                    printf("\nCounters:\n1. Delhi to Indigo\n2. Goa to Delhi\n3. Mumbai to Goa\n4. Mumbai to US\n5. Go to Main Menu\n");
                     printf("Select Counter: ");
                     scanf("%d", &counter);
 

@@ -1,2 +1,22 @@
 [2025-05-21 14:04:56] CHECK-IN | Counter: 2 | Bag ID: 1 | Weight: 52
 [2025-05-21 14:05:52] CHECK-OUT | Counter: 2 | Bag ID: 1 | Weight: 52 | Charges Paid: 350
+[2025-05-28 09:27:36] CHECK-IN | Counter: 2 | Bag ID: 1 | Weight: 78
+[2025-05-28 09:27:57] CHECK-IN | Counter: 2 | Bag ID: 2 | Weight: 47
+[2025-05-28 09:28:05] CHECK-IN | Counter: 1 | Bag ID: 1 | Weight: 25
+[2025-05-28 09:28:46] CHECK-OUT | Counter: 2 | Bag ID: 1 | Weight: 78 | Charges Paid: 78
+[2025-05-28 09:40:23] CHECK-IN | Counter: 2 | Bag ID: 1 | Weight: 78
+[2025-06-21 09:42:02] CHECK-IN | Counter: 3 | Bag ID: 1 | Weight: 78
+[2025-06-21 09:42:16] CHECK-IN | Counter: 3 | Bag ID: 2 | Weight: 52
+[2025-06-21 09:42:26] CHECK-IN | Counter: 2 | Bag ID: 1 | Weight: 46
+[2025-06-21 09:42:33] CHECK-IN | Counter: 4 | Bag ID: 1 | Weight: 12
+[2025-06-21 09:42:39] CHECK-IN | Counter: 4 | Bag ID: 2 | Weight: 74
+[2025-06-21 09:43:08] CHECK-OUT | Counter: 2 | Bag ID: 1 | Weight: 46 | Charges Paid: 200
+[2025-06-21 09:43:33] CHECK-OUT | Counter: 3 | Bag ID: 1 | Weight: 78 | Charges Paid: 350
+[2025-06-26 09:48:27] CHECK-IN | Counter: 2 | Bag ID: 1 | Weight: 28
+[2025-06-26 09:51:03] CHECK-OUT | Counter: 2 | Bag ID: 1 | Weight: 28 | Charges Paid: 0
+[2025-06-26 09:51:47] CHECK-IN | Counter: 1 | Bag ID: 1 | Weight: 78
+[2025-06-26 09:51:56] CHECK-IN | Counter: 1 | Bag ID: 2 | Weight: 38
+[2025-06-26 09:52:15] CHECK-IN | Counter: 3 | Bag ID: 1 | Weight: 48
+[2025-06-26 09:52:20] CHECK-IN | Counter: 3 | Bag ID: 2 | Weight: 22
+[2025-06-26 09:52:37] CHECK-OUT | Counter: 1 | Bag ID: 1 | Weight: 78 | Charges Paid: 250
+[2025-06-26 09:53:02] CHECK-OUT | Counter: 1 | Bag ID: 2 | Weight: 38 | Charges Paid: 0
